@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HDMediaPlayer</string>
+    <string name="button_assets_mp3">AssetsMP3</string>
+    <string name="button_assets_mp4">AssetsMP4</string>
+    <string name="button_url">UrlMedia</string>
+</resources>

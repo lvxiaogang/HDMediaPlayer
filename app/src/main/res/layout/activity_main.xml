@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:id="@+id/editLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/assetsMP3Button"
+            android:text="@string/button_assets_mp3"
+            android:layout_width="wrap_content"
+            android:onClick="onEditClick"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/assetsMP4Button"
+            android:text="@string/button_assets_mp4"
+            android:layout_width="wrap_content"
+            android:onClick="onEditClick"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/urlButton"
+            android:text="@string/button_url"
+            android:layout_width="wrap_content"
+            android:onClick="onEditClick"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
